@@ -3,7 +3,7 @@ import React, { ReactElement, Suspense, SuspenseProps } from 'react';
 import { OnErrorHandler, useInterceptSelections } from '../common';
 import { ReactClientOptionsWithDefaults } from '../utils';
 
-import type { GQlessClient } from '@pablosz/gqless';
+import type { GQlessClient } from '@mozartspa/gqless';
 
 export interface GraphQLHOCOptions {
   suspense?:

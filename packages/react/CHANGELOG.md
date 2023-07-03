@@ -1,4 +1,4 @@
-# @pablosz/gqless-react
+# @mozartspa/gqless-react
 
 ## 2.0.16
 
@@ -7,7 +7,7 @@
 - 3f08372: publish fork
 - 184a074: fix update loop https://github.com/PabloSzx/gqless/pull/223
 - Updated dependencies [3f08372]
-  - @pablosz/gqless@2.0.15
+  - @mozartspa/gqless@2.0.15
 
 ## 2.0.15
 

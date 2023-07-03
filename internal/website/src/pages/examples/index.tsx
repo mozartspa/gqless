@@ -46,7 +46,7 @@ export default function Page() {
         </Text>
         <Text>
           And we encourage you to open a new{' '}
-          <Link to="https://github.com/PabloSzx/gqless/issues">
+          <Link to="https://github.com/mozartspa/gqless/issues">
             GitHub issue
           </Link>{' '}
           to request some examples about specific issues you might have, and you

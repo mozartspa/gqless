@@ -4,7 +4,7 @@ title: Programmatic usage of CLI
 sidebar_label: Programmatic usage
 ---
 
-**@pablosz/gqless-cli** has also a complete programmatic API, which allows you to generate the client with custom scripts.
+**@mozartspa/gqless-cli** has also a complete programmatic API, which allows you to generate the client with custom scripts.
 
 ## `inspectWriteGenerate`
 
@@ -13,7 +13,7 @@ Basically calling CLI functionality programmatically.
 All the fields are optional, and it will always read from the [Configuration](/cli/config) if any field is not specified.
 
 ```tsx
-import { inspectWriteGenerate } from '@pablosz/gqless-cli';
+import { inspectWriteGenerate } from '@mozartspa/gqless-cli';
 
 await inspectWriteGenerate({
   destination: './src/gqless/index.ts',
@@ -39,7 +39,7 @@ If you have direct access to the [GraphQLSchema](https://graphql.org/graphql-js/
 All the `GenerateOptions` are optional, and it will always read from the [Configuration](/cli/config) if any field is not specified.
 
 ```tsx
-import { writeGenerate } from '@pablosz/gqless-cli';
+import { writeGenerate } from '@mozartspa/gqless-cli';
 
 // You get the `schema` from somewhere...
 
@@ -72,7 +72,7 @@ If you have direct access to the [GraphQLSchema](https://graphql.org/graphql-js/
 All the GenerateOptions are optional, and it will always read from the [Configuration](/cli/config) if any field is not specified.
 
 ```tsx
-import { generate } from '@pablosz/gqless-cli';
+import { generate } from '@mozartspa/gqless-cli';
 
 // You get the `schema` from somewhere...
 
@@ -104,7 +104,7 @@ Inspect a remote GraphQL API
 If the headers are not specified, it will look for [Configuration](/cli/config).
 
 ```tsx
-import { getRemoteSchema } from '@pablosz/gqless-cli';
+import { getRemoteSchema } from '@mozartspa/gqless-cli';
 
 const schema = await getRemoteSchema(
   // Endpoint, required

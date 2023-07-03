@@ -1,10 +1,10 @@
 {
-  "name": "@pablosz/gqless-cli",
+  "name": "@mozartspa/gqless-cli",
   "version": "2.0.18",
   "homepage": "https://gqless.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PabloSzx/gqless.git"
+    "url": "https://github.com/mozartspa/gqless.git"
   },
   "license": "MIT",
   "author": "PabloSzx <pablosaez1995@gmail.com>",
@@ -45,7 +45,7 @@
     "@graphql-tools/delegate": "^7.1.5",
     "@graphql-tools/utils": "^7.10.0",
     "@graphql-tools/wrap": "^7.0.8",
-    "@pablosz/gqless": "workspace:^2.0.15",
+    "@mozartspa/gqless": "workspace:^2.0.15",
     "commander": "^7.2.0",
     "cosmiconfig": "^7.0.0",
     "cross-fetch": "^3.1.4",

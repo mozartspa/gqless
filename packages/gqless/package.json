@@ -1,11 +1,11 @@
 {
-  "name": "@pablosz/gqless",
+  "name": "@mozartspa/gqless",
   "version": "2.0.15",
   "description": "gqless client without queries",
   "homepage": "https://gqless.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PabloSzx/gqless.git"
+    "url": "https://github.com/mozartspa/gqless.git"
   },
   "license": "MIT",
   "author": "PabloSzx <pablosaez1995@gmail.com>",

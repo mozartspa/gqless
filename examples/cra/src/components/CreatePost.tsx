@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 
-import { getFields } from '@pablosz/gqless';
+import { getFields } from '@mozartspa/gqless';
 import { useRef } from 'react';
 
 import { CursorConnectionArgs, useMutation } from '../gqless';

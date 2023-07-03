@@ -1,6 +1,6 @@
-import { createLogger } from '@pablosz/gqless-logger';
+import { createLogger } from '@mozartspa/gqless-logger';
 
-import { createReactClient } from '@pablosz/gqless-react';
+import { createReactClient } from '@mozartspa/gqless-react';
 import { client, GeneratedSchema } from '../graphql/gqless';
 
 export const {

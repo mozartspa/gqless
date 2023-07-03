@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 
-import { prepass } from '@pablosz/gqless';
+import { prepass } from '@mozartspa/gqless';
 import { useRef } from 'react';
 
 import { useMutation } from '../gqless';

@@ -1,5 +1,5 @@
-import type { GQlessClient, GQlessError } from '@pablosz/gqless';
-import type { SchedulerPromiseValue } from '@pablosz/gqless/Scheduler';
+import type { GQlessClient, GQlessError } from '@mozartspa/gqless';
+import type { SchedulerPromiseValue } from '@mozartspa/gqless/Scheduler';
 
 import {
   useForceUpdate,

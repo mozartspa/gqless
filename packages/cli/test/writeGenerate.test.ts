@@ -86,7 +86,7 @@ test('generates code and writes existing file', async () => {
         Float: number;
       }
 
-      export const scalarsEnumsHash: import('@pablosz/gqless').ScalarsEnumsHash = {
+      export const scalarsEnumsHash: import('@mozartspa/gqless').ScalarsEnumsHash = {
         String: true,
         Boolean: true,
       };
@@ -191,7 +191,7 @@ test('creates dir, generates code and writes new file', async () => {
         Float: number;
       }
 
-      export const scalarsEnumsHash: import('@pablosz/gqless').ScalarsEnumsHash = {
+      export const scalarsEnumsHash: import('@mozartspa/gqless').ScalarsEnumsHash = {
         String: true,
         Boolean: true,
       };
@@ -247,9 +247,9 @@ test('creates dir, generates code and writes new file', async () => {
        * GQLESS: You can safely modify this file and Query Fetcher based on your needs
        */
 
-      import { createReactClient } from '@pablosz/gqless-react';
+      import { createReactClient } from '@mozartspa/gqless-react';
 
-      import { createClient, QueryFetcher } from '@pablosz/gqless';
+      import { createClient, QueryFetcher } from '@mozartspa/gqless';
       import {
         generatedSchema,
         scalarsEnumsHash,

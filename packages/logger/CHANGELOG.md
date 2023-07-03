@@ -1,4 +1,4 @@
-# @pablosz/gqless-logger
+# @mozartspa/gqless-logger
 
 ## 2.0.12
 
@@ -6,7 +6,7 @@
 
 - 3f08372: publish fork
 - Updated dependencies [3f08372]
-  - @pablosz/gqless@2.0.15
+  - @mozartspa/gqless@2.0.15
 
 ## 2.0.11
 

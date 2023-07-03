@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 
-import { uniqBy } from '@pablosz/gqless-react';
+import { uniqBy } from '@mozartspa/gqless-react';
 
 import {
   CursorConnectionArgs,

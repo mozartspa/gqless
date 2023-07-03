@@ -2,10 +2,10 @@
  * GQLESS: You can safely modify this file and Query Fetcher based on your needs
  */
 
-import { createReactClient } from '@pablosz/gqless-react';
-import { createSubscriptionsClient } from '@pablosz/gqless-subscriptions';
-import { createClient, QueryFetcher } from '@pablosz/gqless';
-import { createLogger } from '@pablosz/gqless-logger';
+import { createReactClient } from '@mozartspa/gqless-react';
+import { createSubscriptionsClient } from '@mozartspa/gqless-subscriptions';
+import { createClient, QueryFetcher } from '@mozartspa/gqless';
+import { createLogger } from '@mozartspa/gqless-logger';
 import {
   generatedSchema,
   scalarsEnumsHash,

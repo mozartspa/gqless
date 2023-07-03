@@ -5,7 +5,7 @@ import {
   resolved,
 } from '../src/gqless';
 import assert from 'assert';
-import { getFields, getArrayFields } from '@pablosz/gqless';
+import { getFields, getArrayFields } from '@mozartspa/gqless';
 
 test('works', async () => {
   expect(

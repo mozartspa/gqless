@@ -62,7 +62,7 @@ module.exports = {
 
         // { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/PabloSzx/gqless',
+          href: 'https://github.com/mozartspa/gqless',
           position: 'right',
           dangerouslySetInnerHTML: {
             __html: `
@@ -106,7 +106,7 @@ module.exports = {
             },
             {
               label: 'Discussions',
-              href: 'https://github.com/PabloSzx/gqless/discussions',
+              href: 'https://github.com/mozartspa/gqless/discussions',
             },
           ],
         },
@@ -115,7 +115,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/PabloSzx/gqless',
+              href: 'https://github.com/mozartspa/gqless',
             },
             {
               label: 'Open Collective',
@@ -139,7 +139,7 @@ module.exports = {
           path: '../../docs',
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/PabloSzx/gqless/edit/master/docs/master',
+          editUrl: 'https://github.com/mozartspa/gqless/edit/master/docs/master',
           remarkPlugins: [require('./src/plugins/remark-yarn2npm')],
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,

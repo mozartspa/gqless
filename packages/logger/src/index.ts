@@ -3,8 +3,8 @@ import parserGraphQL from 'prettier/parser-graphql';
 import prettier from 'prettier/standalone';
 import { serializeError } from 'serialize-error';
 
-import type { GQlessClient } from '@pablosz/gqless';
-import type { FetchEventData } from '@pablosz/gqless/Events';
+import type { GQlessClient } from '@mozartspa/gqless';
+import type { FetchEventData } from '@mozartspa/gqless/Events';
 
 function parseGraphQL(query: string) {
   return prettier.format(query, {

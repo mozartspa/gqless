@@ -1,4 +1,4 @@
-import { GQlessClient, prepass } from '@pablosz/gqless';
+import { GQlessClient, prepass } from '@mozartspa/gqless';
 import { useMemo, useState } from 'react';
 
 import {

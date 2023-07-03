@@ -1,4 +1,4 @@
-# @pablosz/gqless-subscriptions
+# @mozartspa/gqless-subscriptions
 
 ## 1.0.12
 
@@ -6,7 +6,7 @@
 
 - 3f08372: publish fork
 - Updated dependencies [3f08372]
-  - @pablosz/gqless@2.0.15
+  - @mozartspa/gqless@2.0.15
 
 ## 1.0.11
 

@@ -4,7 +4,7 @@ import {
   GQlessError,
   ResolveOptions,
   RetryOptions,
-} from '@pablosz/gqless';
+} from '@mozartspa/gqless';
 import {
   Dispatch,
   useCallback,

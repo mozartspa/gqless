@@ -1,4 +1,4 @@
-import type { GQlessClient } from '@pablosz/gqless';
+import type { GQlessClient } from '@mozartspa/gqless';
 import { Dispatch, useCallback, useMemo, useReducer, useRef } from 'react';
 
 import {

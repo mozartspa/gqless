@@ -8,7 +8,7 @@ import {
   useRefetch,
   useTransactionQuery,
 } from '../components/client';
-import { selectFields } from '@pablosz/gqless';
+import { selectFields } from '@mozartspa/gqless';
 import { Button, Stack, Text } from '@chakra-ui/react';
 
 const Comp = graphql(function Asd() {

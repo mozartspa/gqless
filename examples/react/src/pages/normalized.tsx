@@ -1,5 +1,5 @@
 import { Button, Stack, Text } from '@chakra-ui/react';
-import { selectFields } from '@pablosz/gqless';
+import { selectFields } from '@mozartspa/gqless';
 import { useMutation, useQuery } from '../components/client';
 
 export default function NormalizedPage() {

@@ -1,4 +1,4 @@
-import { createClient } from '@pablosz/gqless';
+import { createClient } from '@mozartspa/gqless';
 import { createTestApp, gql } from 'test-utils';
 
 import { createLogger } from '../src';

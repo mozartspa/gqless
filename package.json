@@ -3,7 +3,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/PabloSzx/gqless.git"
+    "url": "https://github.com/mozartspa/gqless.git"
   },
   "license": "MIT",
   "type": "module",

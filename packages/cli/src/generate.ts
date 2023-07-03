@@ -4,7 +4,7 @@ import {
   Schema,
   SchemaUnionsKey,
   Type,
-} from '@pablosz/gqless';
+} from '@mozartspa/gqless';
 import {
   GraphQLEnumType,
   GraphQLField,
@@ -817,7 +817,7 @@ export async function generate(
   const queryFetcher = `
     ${
       isJavascriptOutput
-        ? typeDoc('import("@pablosz/gqless").QueryFetcher') +
+        ? typeDoc('import("@mozartspa/gqless").QueryFetcher') +
           'const queryFetcher'
         : 'const queryFetcher : QueryFetcher'
     } = async function (query, variables) {
@@ -846,10 +846,10 @@ export async function generate(
 /**
  * GQLESS AUTO-GENERATED CODE: PLEASE DO NOT MODIFY MANUALLY
  */
-${hasUnions ? 'import { SchemaUnionsKey } from "@pablosz/gqless";' : ''}
+${hasUnions ? 'import { SchemaUnionsKey } from "@mozartspa/gqless";' : ''}
 
 ${typeDoc(
-  'import("@pablosz/gqless").ScalarsEnumsHash'
+  'import("@mozartspa/gqless").ScalarsEnumsHash'
 )}export const scalarsEnumsHash = ${JSON.stringify(scalarsEnumsHash)};
 
 export const generatedSchema = {${Object.entries(generatedSchema).reduceRight(
@@ -867,13 +867,13 @@ export const generatedSchema = {${Object.entries(generatedSchema).reduceRight(
  */
   ${preImport}
 
-  ${hasUnions ? 'import { SchemaUnionsKey } from "@pablosz/gqless";' : ''}
+  ${hasUnions ? 'import { SchemaUnionsKey } from "@mozartspa/gqless";' : ''}
 
   ${await codegenResultPromise}
 
   export${
     isJavascriptOutput ? ' declare' : ''
-  } const scalarsEnumsHash: import("@pablosz/gqless").ScalarsEnumsHash${
+  } const scalarsEnumsHash: import("@mozartspa/gqless").ScalarsEnumsHash${
       isJavascriptOutput ? ';' : ` = ${JSON.stringify(scalarsEnumsHash)};`
     }
   export${isJavascriptOutput ? ' declare' : ''} const generatedSchema ${
@@ -894,7 +894,7 @@ export const generatedSchema = {${Object.entries(generatedSchema).reduceRight(
     if (isJavascriptOutput) {
       reactClientCode = `
       ${typeDoc(
-        'import("@pablosz/gqless-react").ReactClient<import("./schema.generated").GeneratedSchema>'
+        'import("@mozartspa/gqless-react").ReactClient<import("./schema.generated").GeneratedSchema>'
       )}const reactClient = createReactClient(client, {
         defaults: {
           // Set this flag as "true" if your usage involves React Suspense
@@ -953,15 +953,15 @@ export const generatedSchema = {${Object.entries(generatedSchema).reduceRight(
  * GQLESS: You can safely modify this file and Query Fetcher based on your needs
  */
 
-  ${react ? `import { createReactClient } from "@pablosz/gqless-react"` : ''}
+  ${react ? `import { createReactClient } from "@mozartspa/gqless-react"` : ''}
   ${
     subscriptions
-      ? `import { createSubscriptionsClient } from "@pablosz/gqless-subscriptions"`
+      ? `import { createSubscriptionsClient } from "@mozartspa/gqless-subscriptions"`
       : ''
   }
   import { createClient${
     isJavascriptOutput ? '' : ', QueryFetcher'
-  } } from "@pablosz/gqless";
+  } } from "@mozartspa/gqless";
   import { generatedSchema, scalarsEnumsHash${
     isJavascriptOutput
       ? ''
@@ -990,7 +990,7 @@ export const generatedSchema = {${Object.entries(generatedSchema).reduceRight(
   ${
     isJavascriptOutput
       ? `${typeDoc(
-          'import("@pablosz/gqless").GQlessClient<import("./schema.generated").GeneratedSchema>'
+          'import("@mozartspa/gqless").GQlessClient<import("./schema.generated").GeneratedSchema>'
         )}export const client = createClient({
         schema: generatedSchema,
         scalarsEnumsHash, 

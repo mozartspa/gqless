@@ -16,10 +16,10 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@pablosz/gqless": ["packages/gqless/src/index.ts"],
-      "@pablosz/gqless/*": ["packages/gqless/src/*"],
-      "@pablosz/gqless-cli": ["packages/cli/src/index.ts"],
-      "@pablosz/gqless-cli/*": ["packages/cli/src/*"]
+      "@mozartspa/gqless": ["packages/gqless/src/index.ts"],
+      "@mozartspa/gqless/*": ["packages/gqless/src/*"],
+      "@mozartspa/gqless-cli": ["packages/cli/src/index.ts"],
+      "@mozartspa/gqless-cli/*": ["packages/cli/src/*"]
     }
   },
   "include": ["packages", "internal", "examples/mercurius"],

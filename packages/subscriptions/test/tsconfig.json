@@ -7,8 +7,8 @@
     "jsx": "react",
     "baseUrl": ".",
     "paths": {
-      "@pablosz/gqless": ["../../gqless/src/index.ts"],
-      "@pablosz/gqless/*": ["../../gqless/src/*"]
+      "@mozartspa/gqless": ["../../gqless/src/index.ts"],
+      "@mozartspa/gqless/*": ["../../gqless/src/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"]

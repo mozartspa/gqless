@@ -1,4 +1,4 @@
-import { writeGenerate } from '@pablosz/gqless-cli';
+import { writeGenerate } from '@mozartspa/gqless-cli';
 import { app } from './src';
 
 (async () => {

@@ -1,9 +1,9 @@
 ---
-'@pablosz/gqless-cli': patch
-'@pablosz/gqless': patch
-'@pablosz/gqless-logger': patch
-'@pablosz/gqless-react': patch
-'@pablosz/gqless-subscriptions': patch
+'@mozartspa/gqless-cli': patch
+'@mozartspa/gqless': patch
+'@mozartspa/gqless-logger': patch
+'@mozartspa/gqless-react': patch
+'@mozartspa/gqless-subscriptions': patch
 ---
 
 improve build & support ESM

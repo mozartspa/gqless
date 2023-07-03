@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 /**
- * @type {import("@pablosz/gqless-cli").GQlessConfig}
+ * @type {import("@mozartspa/gqless-cli").GQlessConfig}
  */
 const config = {
   enumsAsStrings: false,

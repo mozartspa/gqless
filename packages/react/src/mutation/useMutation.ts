@@ -3,7 +3,7 @@ import {
   GQlessClient,
   GQlessError,
   RetryOptions,
-} from '@pablosz/gqless';
+} from '@mozartspa/gqless';
 import { Dispatch, useCallback, useMemo, useReducer, useRef } from 'react';
 
 import {

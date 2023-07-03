@@ -5,17 +5,17 @@ import {
   selectFields,
   castNotSkeleton,
   castNotSkeletonDeep,
-} from '@pablosz/gqless';
+} from '@mozartspa/gqless';
 import {
   BuildSelectionInput,
   GQlessError,
   ResolveOptions,
   Selection,
-} from '@pablosz/gqless';
-import { ProxyAccessor } from '@pablosz/gqless/Cache';
-import { EventHandler } from '@pablosz/gqless/Events';
-import { InterceptorManager } from '@pablosz/gqless/Interceptor';
-import { Scheduler } from '@pablosz/gqless/Scheduler';
+} from '@mozartspa/gqless';
+import { ProxyAccessor } from '@mozartspa/gqless/Cache';
+import { EventHandler } from '@mozartspa/gqless/Events';
+import { InterceptorManager } from '@mozartspa/gqless/Interceptor';
+import { Scheduler } from '@mozartspa/gqless/Scheduler';
 import {
   MutableRefObject,
   useCallback,
