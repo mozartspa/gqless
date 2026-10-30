@@ -725,6 +725,28 @@ describe('selectFields', () => {
       a: 1,
     });
   });
+
+  test('omits function fields recursively', () => {
+    const data = selectFields(
+      {
+        name: 'Ada',
+        count: () => 1,
+        nested: {
+          count: () => 2,
+          value: true,
+        },
+        items: [{ count: () => 3, value: 'kept' }],
+      },
+      '*',
+      3
+    );
+
+    expect(data).toStrictEqual({
+      name: 'Ada',
+      nested: { value: true },
+      items: [{ value: 'kept' }],
+    });
+  });
 });
 
 describe('refetch function', () => {
@@ -1102,11 +1124,10 @@ test('prepass works', () => {
 });
 
 test('type casters', async () => {
-  type Equals<X, Y> = (<T>() => T extends X ? 1 : 2) extends <
-    T
-  >() => T extends Y ? 1 : 2
-    ? true
-    : false;
+  type Equals<X, Y> =
+    (<T>() => T extends X ? 1 : 2) extends <T>() => T extends Y ? 1 : 2
+      ? true
+      : false;
 
   const a1: {
     a: string | undefined;
@@ -1145,7 +1166,7 @@ test('type casters', async () => {
                       h: [
                         {
                           i: number | undefined;
-                        }
+                        },
                       ];
                     };
                   }
