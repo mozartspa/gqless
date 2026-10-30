@@ -7,6 +7,7 @@
   },
   "license": "MIT",
   "type": "module",
+  "packageManager": "pnpm@12.16.1",
   "scripts": {
     "build": "pnpm build -r --stream",
     "build:docs": "pnpm build:website",
@@ -60,16 +61,6 @@
     "rimraf": "^3.0.2"
   },
   "engines": {
-    "pnpm": ">=6.0.2"
-  },
-  "pnpm": {
-    "overrides": {
-      "typescript": "^4.2.4",
-      "jest": "^26.6.3",
-      "ts-jest": "^26.5.5",
-      "prettier": "^2.2.1",
-      "esbuild": "^0.12.9",
-      "@types/node": "^15.12.4"
-    }
+    "pnpm": ">=12.16.1"
   }
 }

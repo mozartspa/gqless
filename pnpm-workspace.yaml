@@ -2,3 +2,26 @@ packages:
   - 'packages/*'
   - 'examples/*'
   - 'internal/*'
+
+overrides:
+  typescript: 4.3.4
+  jest: ^26.6.3
+  ts-jest: ^26.5.5
+  prettier: ^2.2.1
+  esbuild: ^0.12.9
+  '@types/node': ^15.12.4
+
+workspaceConcurrency: 4
+publicHoistPattern:
+  - '@types/*'
+  - esbuild
+  - typescript
+  - prettier
+  - ts-jest
+  - jest
+  - rollup*
+  - '@rollup*'
+preferWorkspacePackages: true
+frozenLockfile: false
+allowBuilds:
+  esbuild: true
