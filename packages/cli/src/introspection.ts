@@ -1,5 +1,6 @@
 import { fetch } from 'cross-fetch';
 import { print } from 'graphql';
+import type { GraphQLSchema } from 'graphql';
 
 import { introspectSchema, wrapSchema } from '@graphql-tools/wrap';
 
@@ -26,7 +27,7 @@ export const getRemoteSchema = async (
    * Specify options for the introspection
    */
   { headers }: Pick<IntrospectionOptions, 'headers'> = {}
-) => {
+): Promise<GraphQLSchema> => {
   const executor: AsyncExecutor = async ({ document, variables }) => {
     headers ||=
       (await gqlessConfigPromise).config.introspection?.headers ||

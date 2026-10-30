@@ -169,6 +169,8 @@ overrides:
   prettier: ^2.2.1
   esbuild: ^0.12.9
   '@types/node': ^15.12.4
+  '@types/babel__traverse': 7.11.1
+  '@types/lodash': 4.14.170
 
 importers:
 
@@ -263,19 +265,19 @@ importers:
         specifier: ^11.3.0
         version: 11.14.1(@emotion/react@11.14.0(@types/react@17.0.93)(react@17.0.2)(supports-color@6.1.0))(@types/react@17.0.93)(react@17.0.2)(supports-color@6.1.0)
       '@mozartspa/gqless':
-        specifier: workspace:^2.0.15
+        specifier: workspace:^2.0.16
         version: link:../../packages/gqless/dist
       '@mozartspa/gqless-cli':
-        specifier: workspace:^2.0.18
+        specifier: workspace:^2.0.20
         version: link:../../packages/cli/dist
       '@mozartspa/gqless-logger':
-        specifier: workspace:^2.0.12
+        specifier: workspace:^2.0.13
         version: link:../../packages/logger/dist
       '@mozartspa/gqless-react':
-        specifier: workspace:^2.0.16
+        specifier: workspace:^2.0.17
         version: link:../../packages/react/dist
       '@mozartspa/gqless-subscriptions':
-        specifier: workspace:^1.0.12
+        specifier: workspace:^1.0.13
         version: link:../../packages/subscriptions/dist
       '@testing-library/jest-dom':
         specifier: ^5.14.1
@@ -335,10 +337,10 @@ importers:
   examples/github:
     dependencies:
       '@mozartspa/gqless':
-        specifier: workspace:^2.0.15
+        specifier: workspace:^2.0.16
         version: link:../../packages/gqless/dist
       '@mozartspa/gqless-cli':
-        specifier: workspace:^2.0.18
+        specifier: workspace:^2.0.20
         version: link:../../packages/cli/dist
       dotenv:
         specifier: ^8.6.0
@@ -360,10 +362,10 @@ importers:
         specifier: ^3.1.0
         version: 3.2.0(graphql@15.10.3)
       '@mozartspa/gqless':
-        specifier: workspace:^2.0.15
+        specifier: workspace:^2.0.16
         version: link:../../packages/gqless/dist
       '@mozartspa/gqless-cli':
-        specifier: workspace:^2.0.18
+        specifier: workspace:^2.0.20
         version: link:../../packages/cli/dist
       fastify:
         specifier: ^3.18.0
@@ -391,8 +393,8 @@ importers:
         specifier: ^4.12.0
         version: 4.12.0(bufferutil@4.1.0)(size-limit@4.12.0)(supports-color@8.1.1)(typescript@4.3.4)(utf-8-validate@5.0.10)
       '@types/lodash':
-        specifier: ^4.14.170
-        version: 4.17.27
+        specifier: 4.14.170
+        version: 4.14.170
       '@types/randomstring':
         specifier: ^1.1.6
         version: 1.3.0
@@ -430,19 +432,19 @@ importers:
         specifier: ^11.3.0
         version: 11.14.1(@emotion/react@11.14.0(@types/react@17.0.93)(react@17.0.2)(supports-color@8.1.1))(@types/react@17.0.93)(react@17.0.2)(supports-color@8.1.1)
       '@mozartspa/gqless':
-        specifier: workspace:^2.0.15
+        specifier: workspace:^2.0.16
         version: link:../../packages/gqless/dist
       '@mozartspa/gqless-cli':
-        specifier: workspace:^2.0.18
+        specifier: workspace:^2.0.20
         version: link:../../packages/cli/dist
       '@mozartspa/gqless-logger':
-        specifier: workspace:^2.0.12
+        specifier: workspace:^2.0.13
         version: link:../../packages/logger/dist
       '@mozartspa/gqless-react':
-        specifier: workspace:^2.0.16
+        specifier: workspace:^2.0.17
         version: link:../../packages/react/dist
       '@mozartspa/gqless-subscriptions':
-        specifier: workspace:^1.0.12
+        specifier: workspace:^1.0.13
         version: link:../../packages/subscriptions/dist
       '@react-native-async-storage/async-storage':
         specifier: ^1.15.5
@@ -533,8 +535,8 @@ importers:
         specifier: ^5.5.6
         version: 5.5.9
       '@types/lodash':
-        specifier: ^4.14.170
-        version: 4.17.27
+        specifier: 4.14.170
+        version: 4.14.170
       '@types/ms':
         specifier: ^0.7.31
         version: 0.7.34
@@ -775,7 +777,7 @@ importers:
         specifier: ^7.0.8
         version: 7.0.8(graphql@15.10.3)
       '@mozartspa/gqless':
-        specifier: workspace:^2.0.15
+        specifier: workspace:^2.0.16
         version: link:../gqless/dist
       commander:
         specifier: ^7.2.0
@@ -856,8 +858,8 @@ importers:
         specifier: ^6.2.0
         version: 6.4.0
       '@types/lodash':
-        specifier: ^4.14.170
-        version: 4.17.27
+        specifier: 4.14.170
+        version: 4.14.170
       '@types/lodash-es':
         specifier: ^4.17.4
         version: 4.17.12
@@ -966,7 +968,7 @@ importers:
         version: 8.1.0
     devDependencies:
       '@mozartspa/gqless':
-        specifier: workspace:^2.0.15
+        specifier: workspace:^2.0.16
         version: link:../gqless/dist
       '@size-limit/preset-small-lib':
         specifier: ^4.12.0
@@ -1004,7 +1006,7 @@ importers:
         version: 1.6.0(react@17.0.2)
     devDependencies:
       '@mozartspa/gqless':
-        specifier: workspace:^2.0.15
+        specifier: workspace:^2.0.16
         version: link:../gqless/dist
       '@size-limit/preset-small-lib':
         specifier: ^4.12.0
@@ -1022,8 +1024,8 @@ importers:
         specifier: ^26.0.23
         version: 26.0.24
       '@types/lodash':
-        specifier: ^4.14.170
-        version: 4.17.27
+        specifier: 4.14.170
+        version: 4.14.170
       '@types/react':
         specifier: ^17.0.11
         version: 17.0.93
@@ -1081,7 +1083,7 @@ importers:
         version: 7.5.13(bufferutil@4.1.0)(utf-8-validate@5.0.10)
     devDependencies:
       '@mozartspa/gqless':
-        specifier: workspace:^2.0.15
+        specifier: workspace:^2.0.16
         version: link:../gqless/dist
       '@types/ws':
         specifier: ^7.4.5
@@ -3576,8 +3578,8 @@ packages:
   '@types/babel__template@7.4.4':
     resolution: {integrity: sha512-h/NUaSyG5EyxBIp8YRxo4RMe2/qQgvyowRwVMzhYhBCONbW8PUsg4lkFMrhgZhUe5z3L3MiLDuvyJ/CaPa2A8A==}
 
-  '@types/babel__traverse@7.28.0':
-    resolution: {integrity: sha512-8PvcXf70gTDZBgt9ptxJ8elBeBjcLOAcOtoO/mPJjtji1+CdGbHgm77om1GrsPxsiE+uXIpNSK64UYaIwQXd4Q==}
+  '@types/babel__traverse@7.11.1':
+    resolution: {integrity: sha512-Vs0hm0vPahPMYi9tDjtP66llufgO3ST16WXaSTtDGEl9cewAl3AibmxWw6TINOqHPT9z0uABKAYjT9jNSg4npw==}
 
   '@types/body-parser@1.19.6':
     resolution: {integrity: sha512-HLFeCYgz89uk22N5Qg3dvGvsv46B8GLvKKo1zKG4NybA8U2DiEO3w9lqGg29t/tfLRJpJ6iQxnVw4OnB7MoM9g==}
@@ -3702,8 +3704,8 @@ packages:
   '@types/lodash.mergewith@4.6.6':
     resolution: {integrity: sha512-RY/8IaVENjG19rxTZu9Nukqh0W2UrYgmBj5sdns4hWRZaV8PqR7wIKHFKzvOTjo4zVRV7sVI+yFhAJql12Kfqg==}
 
-  '@types/lodash@4.17.27':
-    resolution: {integrity: sha512-VenMRv/eKNrspX9v3H4dbmjsrnCOYdYBG3kxXKk3dG6X+urBGcj2Prww3xw1U5K4FV/mE4h5GbWd0szEKf+9ew==}
+  '@types/lodash@4.14.170':
+    resolution: {integrity: sha512-bpcvu/MKHHeYX+qeEN8GE7DIravODWdACVA1ctevD8CN24RhPZIKMn9ntfAsrvLfSX3cR5RrBKAbYm9bGs0A+Q==}
 
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
@@ -19281,7 +19283,7 @@ snapshots:
       '@babel/types': 7.29.11
       '@types/babel__generator': 7.27.0
       '@types/babel__template': 7.4.4
-      '@types/babel__traverse': 7.28.0
+      '@types/babel__traverse': 7.11.1
 
   '@types/babel__generator@7.27.0':
     dependencies:
@@ -19292,7 +19294,7 @@ snapshots:
       '@babel/parser': 7.29.11
       '@babel/types': 7.29.11
 
-  '@types/babel__traverse@7.28.0':
+  '@types/babel__traverse@7.11.1':
     dependencies:
       '@babel/types': 7.29.11
 
@@ -19456,13 +19458,13 @@ snapshots:
 
   '@types/lodash-es@4.17.12':
     dependencies:
-      '@types/lodash': 4.17.27
+      '@types/lodash': 4.14.170
 
   '@types/lodash.mergewith@4.6.6':
     dependencies:
-      '@types/lodash': 4.17.27
+      '@types/lodash': 4.14.170
 
-  '@types/lodash@4.17.27': {}
+  '@types/lodash@4.14.170': {}
 
   '@types/mdast@3.0.15':
     dependencies:
@@ -20594,7 +20596,7 @@ snapshots:
       '@babel/template': 7.29.7
       '@babel/types': 7.29.11
       '@types/babel__core': 7.20.5
-      '@types/babel__traverse': 7.28.0
+      '@types/babel__traverse': 7.11.1
 
   babel-plugin-macros@3.1.0:
     dependencies:
@@ -25780,7 +25782,7 @@ snapshots:
       '@jest/environment': 26.6.2
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
-      '@types/babel__traverse': 7.28.0
+      '@types/babel__traverse': 7.11.1
       '@types/node': 15.14.9
       chalk: 4.1.2
       co: 4.6.0
@@ -26435,7 +26437,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.29.11
       '@jest/types': 26.6.2
-      '@types/babel__traverse': 7.28.0
+      '@types/babel__traverse': 7.11.1
       '@types/prettier': 2.7.3
       chalk: 4.1.2
       expect: 26.6.2
@@ -26456,7 +26458,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.29.11
       '@jest/types': 26.6.2
-      '@types/babel__traverse': 7.28.0
+      '@types/babel__traverse': 7.11.1
       '@types/prettier': 2.7.3
       chalk: 4.1.2
       expect: 26.6.2
@@ -26477,7 +26479,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.29.11
       '@jest/types': 26.6.2
-      '@types/babel__traverse': 7.28.0
+      '@types/babel__traverse': 7.11.1
       '@types/prettier': 2.7.3
       chalk: 4.1.2
       expect: 26.6.2

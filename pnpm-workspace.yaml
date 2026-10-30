@@ -10,6 +10,8 @@ overrides:
   prettier: ^2.2.1
   esbuild: ^0.12.9
   '@types/node': ^15.12.4
+  '@types/babel__traverse': 7.11.1
+  '@types/lodash': 4.14.170
 
 workspaceConcurrency: 4
 publicHoistPattern:

@@ -9,7 +9,7 @@
   "type": "module",
   "packageManager": "pnpm@12.16.1",
   "scripts": {
-    "build": "pnpm build -r --stream",
+    "build": "pnpm -r --filter './packages/*' --stream run build",
     "build:docs": "pnpm build:website",
     "build:website": "pnpm -r --filter website docs:build",
     "changeset": "changeset",

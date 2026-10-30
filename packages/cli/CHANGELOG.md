@@ -1,5 +1,19 @@
 # @mozartspa/gqless-cli
 
+## 2.0.20
+
+### Patch Changes
+
+- Fix declaration generation with the current workspace toolchain.
+
+## 2.0.19
+
+### Patch Changes
+
+- cdcd961: improve build & support ESM
+- Updated dependencies [cdcd961]
+  - @mozartspa/gqless@2.0.16
+
 ## 2.0.18
 
 ### Patch Changes
